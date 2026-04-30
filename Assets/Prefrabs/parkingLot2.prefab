@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &726884244050965728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452737463598972060}
+  m_Layer: 0
+  m_Name: parkingLot2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452737463598972060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726884244050965728}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.04549, y: -0, z: 98.18789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6210111751370358391}
+  - {fileID: 9147520371063733536}
+  - {fileID: 8579834339566575702}
+  - {fileID: 6027021737926042405}
+  - {fileID: 8376834841773928691}
+  - {fileID: 1125313988147550555}
+  - {fileID: 6563706119030627603}
+  - {fileID: 1315904142808550416}
+  - {fileID: 7084823869248953027}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1125313988147938267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 178
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.06451
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6278915
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &1125313988147550555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 1125313988147938267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1315904142808946320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_Name
+      value: Road Tile (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_RootOrder
+      value: 523
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.1454906
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6878891
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+--- !u!4 &1315904142808550416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: ffa95796af8d5884f9d08f66e6bb627e, type: 3}
+  m_PrefabInstance: {fileID: 1315904142808946320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6027021737926179237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 173
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.13549
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.687889
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &6027021737926042405 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 6027021737926179237}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6210111751370745079
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 169
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.13549
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6278915
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &6210111751370358391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 6210111751370745079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6563706119031015315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.06451
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.8821106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &6563706119030627603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 6563706119031015315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7084823869249077315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 567
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.06451
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.3321075
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &7084823869248953027 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 7084823869249077315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8376834841773795955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 177
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.06451
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.687889
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &8376834841773928691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 8376834841773795955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8579834339566975702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 172
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.13549
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.8821106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &8579834339566575702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 8579834339566975702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9147520371063334816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1452737463598972060}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_Name
+      value: Road Split Line (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_RootOrder
+      value: 171
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.13549
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.3321075
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+--- !u!4 &9147520371063733536 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
+  m_PrefabInstance: {fileID: 9147520371063334816}
+  m_PrefabAsset: {fileID: 0}
